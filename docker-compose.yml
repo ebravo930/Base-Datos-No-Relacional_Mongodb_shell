@@ -11,7 +11,7 @@ services:
       MONGO_INITDB_ROOT_PASSWORD: example
     volumes:
       - mongodata:/data/db
-      - ./data/shared:/data/shared 
+      - "C:/Users/ebrav/Documents/Inacap/2024 -01/Bases De Datos No Estructuradas/Clase04:/data/shared"  
     restart: unless-stopped
 
 volumes:
