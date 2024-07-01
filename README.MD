@@ -43,4 +43,8 @@ Para más información sobre cómo usar Docker y Docker Compose, visita la docum
 - Docker: https://docs.docker.com/
 - Docker Compose: https://docs.docker.com/compose/
 
-Este README proporciona una guía básica para comenzar a usar el entorno Docker configurado para e
+Este README proporciona una guía básica para comenzar a usar el entorno Docker configurado para este proyecto MongoDB.
+
+Comando ejecutar script
+-----------------------
+docker exec -it mongodb mongosh -u root -p example --authenticationDatabase admin /data/shared/Base-Datos-No-Relacional_Mongodb_shell/script_tienda.js
